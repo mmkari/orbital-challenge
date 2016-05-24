@@ -6,10 +6,10 @@ From https://reaktor.com/orbital-challenge/:
 
 >This CSV formatted randomized data file contains a snapshot with the current position of the satellites in orbit expressed as:
 
-> *ID,latitude,longitude,altitude*
+> `ID,latitude,longitude,altitude`
 
 >The last line in the file will contain a route between two random points on the Earth surface expressed as:
 
-> *ROUTE,latitude of starting point,longitude of starting point,latitude of end point,longitude of end point*
+> `ROUTE,latitude of starting point,longitude of starting point,latitude of end point,longitude of end point`
 
 >The file will also contain a random seed used to generate it, which you will need to submit for verification purposes along with your answer. To make things simple, Earth is assumed to be perfectly round and its radius is 6371km. All altitudes are expressed as kilometers above the surface.
